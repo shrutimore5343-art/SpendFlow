@@ -87,27 +87,6 @@ A modern, AI-powered expense tracking web application built with Next.js 15, fea
    pnpm install
    ```
 
-3. **Set up environment variables**
-   Create a `.env` file in the root directory:
-
-   ```env
-   # Database
-   DATABASE_URL="your-neon-database-url"
-
-   # Clerk Authentication
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your-clerk-publishable-key"
-   CLERK_SECRET_KEY="your-clerk-secret-key"
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
-   NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL="/"
-   NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL="/"
-
-   # OpenRouter AI
-   OPENROUTER_API_KEY="your-openrouter-api-key"
-
-   # App URL
-   NEXT_PUBLIC_APP_URL="http://localhost:3000"
-   ```
-
 4. **Set up the database**
 
    ```bash
@@ -174,8 +153,6 @@ View the complete database diagram: [Eraser Diagram](https://app.eraser.io/works
 2. **Add environment variables in Vercel dashboard**
 3. **Deploy automatically on every push to main branch**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sahandghavidel/next-expense-tracker-ai)
-
 ## 📎 Useful Links
 
 - **[Neon Database](https://get.neon.com/0pFcBSF)** - Serverless PostgreSQL
@@ -196,13 +173,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 💖 Support
-
-If you find this project helpful, please give it a ⭐ on GitHub!
 
 ---
 
